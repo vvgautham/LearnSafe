@@ -1,0 +1,191 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    text-align: center;
+}
+
+/* Containers */
+
+.container-fluid{
+    padding: 7% 15%;
+}
+
+
+/* sections */
+
+.colored-section{
+    background-color: #528b6a;
+}
+.white-section{
+    background-color: #fff;
+}
+h1,h2,h3,h4{
+    font-family: 'Montserrat', sans-serif;
+}
+p{
+    color: rgb(95, 90, 90);
+}
+
+
+/* Heading Section */
+
+.Main-Heading{
+   
+    font-size: 3rem;
+    line-height: 1.5;
+    font-weight: 900;
+}
+.section-heading{
+    font-weight: 900;
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+
+/* Navigation Bar */
+
+.navbar{
+    padding: 0 0 4.5rem;
+}
+
+.navbar-brand{
+    font-family: "Ubuntu";
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+.nav-item{
+    padding: 0 18px;
+    font-weight: 900;
+    
+}
+.nav-link{
+    font-size: 1.2rem;
+    font-family: "Montserrat-Light";
+}
+
+
+/* Title Section */
+
+#title .container-fluid{
+    padding: 3% 15% 7%; 
+    color: #222d5f;
+    text-align: left;
+    background-color: #3f885e;
+}
+
+
+/* Download Buttons */
+
+.download-button{
+    margin: 5% 3% 5% 0%;
+}
+
+
+/* Title Image */
+
+.title-image{
+    transform: rotate(25deg);
+    position: absolute;
+    height: 500px;
+    width: 40%;
+}
+
+
+/* Features Section */
+
+.feature-title{
+    font-weight: 900;
+    font-size: 1.5rem;
+}
+
+#Features{
+ position: relative;
+ z-index: 1;
+
+}
+
+.feature-box{
+    padding: 5%;
+}
+.icon{
+    color:#ef8172;
+    margin-bottom: 1rem;
+}
+.icon:hover {
+    color: #db2e2e;
+}
+
+
+/* Testimonial Section */
+
+#Testimonials{
+    color: #fff;
+}
+
+.testimonial-text{
+   font-size: 3rem;
+   font-weight: 900;
+   line-height: 1.5; 
+}
+
+.testimonial-image{
+    width: 10%;
+    border-radius: 100%;  
+    margin: 20px;
+
+}
+
+#Press{
+    padding-bottom: 3%;
+
+}
+.press-logo{
+    width: 15%;
+    margin: 20px 20px 50px ;
+    
+}
+
+
+/* Prizing Section */
+
+.h2-prize{
+    font-size: 3rem;
+    line-height:1.5;
+}
+#Pricing{
+    padding: 100px;
+}
+
+.p-col{
+    padding: 3% 2%;
+}
+.h2-price{
+    color: #666161;
+}
+
+@media (max-width: 1028px) {
+
+    #title .container-fluid{
+        text-align: center;
+
+    }
+
+    .title-image{
+        position: static;
+        transform: rotate(0);
+      
+        
+    }
+}
+
+
+/* CTA section */
+
+
+/* Footer Section */
+#footer{
+    padding: 100px 100px 30px 100px;
+}
+.fitem{
+    padding:10px 10px 10px 50px ;
+}
